@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nanotec </title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css"> 
+</head>
+<body> 
+    
+    <header>
+        <img id="image" src="./images/NanoTec.png" alt=”sometext”>
+        <span id="burguer"class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="icons">
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=aihmaB2Xgxo&pp=ygUXbyBxdWUgw6kgbmFub3RlY25vbG9naWE%3D"> O que é Nanotecnologia ? </a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+            </ul>
+        </menu>  
+    </header> 
+         <main>
+            <article>
+             <h2> O que é a Nanotecnologia? </h2>
+             <center>   <img src="images/imagem1.jpg" class="images"></center>  
+                <p> A nanotecnologia é o estudo e o entendimento do controle
+                     e a manipulação de materiais em escala nanométrica,
+                    já tem sido largamente empregada na fabricação de semicondutores
+                     e circuitos integrados (chips) –como computadores e telefones celulares,e
+                      na confecção de dispositivos que incorporam a combinação de porções 
+                    orgânicas e inorgânicas. Ela trabalha diretamente com átomos e moléculas. 
+                    Está presente em vários produtos do nosso cotidiano, como nos laptops, protetores solares,
+                    em calçados esportivos, telefones celulares, tecidos, cosméticos, automóveis e medicamentos, 
+                    entre outros.</p>
+                    <h2> Expansões </h2>
+                    <p> É empregada em diversos setores como medicina, eletrônica, ciência de materiais, engenharia, 
+                        tecnologia da informação, biomedicina, meio ambiente e até alimentação.</p>
+            </article>
+
+            <section class="card">
+                <center> <h3> Assista o vídeo abaixo para entender um pouco mais sobre a Nanotecnologia:</h3>
+                <iframe class="video" src="videos/video.mp4"></iframe></center>
+            </section>
+
+         </main>
+<script>
+    function clickMenu() {
+        if (icons.style.display == 'block'){
+            icons.style.display = 'none'
+        } else {
+            icons.style.display = 'block'
+        }
+    }
+</script>
+<footer class="rodape">
+   <center><h4 class="rodapé"> NANOTEC-IFRN </h4> </center> 
+</footer>
+</body>
+</html>
